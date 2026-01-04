@@ -1,0 +1,5 @@
+<div style="text-align: center; padding: 0pt; margin: 0pt;">
+
+![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTAwJSIgcHJlc2VydmVhc3BlY3RyYXRpbz0ieE1pZFlNaWQgbWVldCIgdmVyc2lvbj0iMS4xIiB2aWV3Ym94PSIwIDAgMTE2MCAxODAwIiB3aWR0aD0iMTAwJSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgICA8aW1hZ2Ugd2lkdGg9IjExNjAiIGhlaWdodD0iMTgwMCIgeGxpbms6aHJlZj0iLi4vSW1hZ2VzL2NvdmVyLmpwZyI+PC9pbWFnZT4KICAgIDwvc3ZnPg==)
+
+</div>

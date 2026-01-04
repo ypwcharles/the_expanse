@@ -1,0 +1,226 @@
+/* Version: 2024.9.11 */
+/* Generic useful styles: */
+body {
+	font-size: 100%;
+	padding: 0;
+}
+
+p {
+	font-weight: normal;
+	text-align: justify;
+	text-indent: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+h1 {
+	font-size: 1.75em;
+	text-indent: 0em;
+	text-align: center
+}
+h2 {
+	font-size: 1.50em;
+	text-indent: 0em;
+	text-align: center
+}
+h3 {
+	font-size: 1.25em;
+	text-indent: 0em;
+	text-align: center
+}
+h4 {
+	font-size: 1.1em;
+	text-indent: 0em;
+	text-align: center
+}
+
+/* Chapters: */
+div.chapter {
+	page-break-before: always;
+}
+div.heading {
+	text-indent: 0;
+	text-align: center;
+}
+div.section {
+	text-align: justify;
+}
+
+/* Format: */
+p.yiny {
+	font-weight: normal;
+	text-align: justify;
+	text-indent: 2em;
+	margin: 0 2em 0.5em 2em;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+.underline {
+	text-decoration: underline;
+}
+.strike {
+	text-decoration: line-through;
+}
+.small {
+	font-size: 0.75em;
+}
+.big {
+	font-size: 1.2em;
+}
+.left {
+	text-align: left;
+	text-indent: 0em;
+}
+.center {
+	text-align: center;
+	text-indent: 0em;
+}
+.right {
+	text-align: right;
+	text-indent: 0em;
+}
+
+/* Font: */
+.Kaiti {
+	font-family: "STKaiti", "Kaiti", "KaiXinSong", "楷体", "楷体_GB2312";
+}
+.Songti {
+	font-family: "宋体", "Songti", "SimSun", "sans-serif";
+}
+.FSong {
+	font-family: "STFangsong", "fs", "FangSong", "Fangsong_GB2312", "仿宋", "仿宋_gb2312", "华文仿宋";
+}
+
+/* Colors: */ 
+.red {
+	color: #ff00ff;
+}
+.bred {
+	color: #ff00ff;
+	font-weight: bold
+}
+
+blue {
+	color: #ab1942;
+}
+bblue {
+	color: #ab1942;
+	font-weight: bold
+}
+
+.orange {
+	color: #00cc00;
+}
+.borange {
+	color: #ff00ff;
+	font-weight: bold
+}
+
+/* Images: */
+img.auto {
+	max-width: 100%;
+	height: auto
+}
+
+/* Spans: */
+span.pizhu {
+	color: #ab1942;
+	font-size: 0.80em;
+	font-family:"STKaiti", "Kaiti", "KaiXinSong", "楷体", "楷体_GB2312";
+}
+
+a.no_dec {
+	color: blue;
+	text-decoration: none;
+}
+
+.linehr {
+	color: gray;
+	display: block;
+	height: 2px;
+	margin: 0.5em auto;
+	border: currentColor inset 1px
+}
+/* Replace <br/> */
+p.newLineTop {
+	font-weight: normal;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	margin-left: 0em;
+	margin-right: 0em;
+	text-align: justify;
+	text-indent: 2em;
+}
+/* front.xhtml */
+.calibre {
+    display: block;
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre {
+    display: block;
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre1 {
+    display: block
+    }
+.centered {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-indent: 0;
+    margin: 1em 0 0.67em
+    }
+.centered1 {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 0;
+    margin: 1em 0 1.33em
+    }
+.centered2 {
+    display: block;
+    font-size: 0.90em;
+    line-height: 170%;
+    text-align: center;
+    text-indent: 0;
+    margin: 0
+    }
+
+
+/* Legacy, in order to minimize failures*/
+.header {
+	text-align: center;
+	text-indent: 0em;
+}
+.signature {
+	text-align: right;
+	text-indent: 0em;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 0;
+  }
+a {
+    text-decoration: none;
+  }
+a:hover {
+    color: red;
+  }
