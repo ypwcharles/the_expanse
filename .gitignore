@@ -1,0 +1,6 @@
+build_temp/
+final_manual_check/
+final_pipeline_check/
+*.epub
+*.pyc
+__pycache__/
